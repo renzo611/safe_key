@@ -1,12 +1,12 @@
 import 'dart:ui';
 
 class AppColors {
-  // 🌞 Light Theme
-  static const Color primaryLight = Color(0xFF1E88E5); // Dodger Blue
-  static const Color primaryDarkLight = Color(0xFF1565C0); // Cobalt Blue
-  static const Color secondaryLight = Color(0xFFFFC107); // Amber
+  // 🌞 Light Theme (Morado + Blanco)
+  static const Color primaryLight = Color(0xFF8E24AA); // Purple
+  static const Color primaryDarkLight = Color(0xFF6A1B9A); // Dark Purple
+  static const Color secondaryLight = Color(0xFFCE93D8); // Light Lavender
   static const Color backgroundLight = Color(0xFFFFFFFF); // White
-  static const Color surfaceLight = Color(0xFFF5F5F5); // Cultured
+  static const Color surfaceLight = Color(0xFFF5F5F5); // Light Gray
   static const Color errorLight = Color(0xFFD32F2F); // Firebrick
 
   static const Color onPrimaryLight = Color(0xFFFFFFFF); // White
@@ -14,7 +14,7 @@ class AppColors {
   static const Color onBackgroundLight = Color(0xFF000000); // Black
   static const Color onSurfaceLight = Color(0xFF000000); // Black
 
-  // 🌙 Dark Theme
+  // 🌙 Dark Theme (Mantenemos el anterior)
   static const Color primaryDark = Color(0xFF90CAF9); // Baby Blue
   static const Color primaryDarkDark = Color(0xFF42A5F5); // Sky Blue
   static const Color secondaryDark = Color(0xFFFFD54F); // Saffron
